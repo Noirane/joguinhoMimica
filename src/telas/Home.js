@@ -10,17 +10,14 @@ import ImagemMimico from "../componentes/ImagemMimico";
 import TextoJogo from "../componentes/TextoJogo";
 import Configuracoes from "./Configuracoes";
 
-
-
 export default function Home({ navigation }) {
   return (
-   
     <View>
       <BolinhasFundo />
 
       <TouchableOpacity
         style={estilos.botaoConf}
-        onPress={() => navigation.navigate("Configuracoes") }
+        onPress={() => navigation.navigate("Configuracoes")}
       >
         <BotaoConfig />
       </TouchableOpacity>
