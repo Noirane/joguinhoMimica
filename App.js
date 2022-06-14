@@ -3,6 +3,8 @@ import { Button, View, Text } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Configuracoes from "./src/telas/Configuracoes";
+import Informacoes from "./src/telas/Informacoes";
+import Categorias from "./src/telas/Categorias";
 import Home from "./src/telas/Home";
 import { Audio } from "expo-av";
 
@@ -45,14 +47,15 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <Button title="Play Sound" onPress={playSound} />
-      <Button title="Pause Sound" onPress={pauseSound} />
+      
       <Stack.Navigator
         screenOptions={{ headerShown: false }}
         initialRouteName="Home"
       >
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Configuracoes" component={Configuracoes} />
+        <Stack.Screen name="Informacoes" component={Informacoes} />
+        <Stack.Screen name="Categorias" component={Categorias} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -11,7 +11,7 @@ const estilos = StyleSheet.create({
     position: "absolute",
     width: 60,
     height: 60,
-    left: 140,
-    top: 550,
+    left: 142.5,
+    top: 600,
   },
 });

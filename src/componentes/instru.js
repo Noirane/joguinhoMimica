@@ -1,6 +1,6 @@
 import React from "react";
 import {StyleSheet,Image} from "react-native";
-import RetVermelho from "../../assets/retangulo_vermelho.png";
+import RetVermelho from "../../assets/instru.png";
 
 
 export default function RetanguloVermelho() {
@@ -10,16 +10,15 @@ export default function RetanguloVermelho() {
 const estilos = StyleSheet.create({
   Rectangle_8: {
     position: "absolute",
-    width: 360,
-    height: 300,
+    width: 270,
+    height: 270,
     borderTopLeftRadius: 5,
     borderTopRightRadius: 5,
-    borderBottomRightRadius: 50,
+    borderBottomRightRadius: 5,
     borderBottomLeftRadius: 5,
     opacity: 1,
-    transform: [{ translateX: 0 }, { translateY: 0 }, { rotate: "0deg" }],
-    backgroundColor: "rgba(218,74,84,1)",
-    opacity: 0.7,
-    top:0,
+    left: 41,
+    top: 320,
+
   },
 });
