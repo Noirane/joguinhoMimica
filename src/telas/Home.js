@@ -60,8 +60,6 @@ export default function Home({ navigation }) {
   };
 
   return (
-    /*handleAudioPlayPause(),*/
-
     <View>
   
       <BolinhasFundo/>
